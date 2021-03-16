@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+    client:
+        build: 
+          context : "./my-app"
+        tty: true
+        volumes:
+          - ./my-app:/app
+        ports:
+            - 3000:3000
