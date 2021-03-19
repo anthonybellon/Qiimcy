@@ -1,0 +1,52 @@
+{
+    "information": [
+      {
+        "id": "1",
+        "type": "Building safety report.doc",
+        "ownerName": "Qiimcy",
+        "details": "infomation on building safety"
+      },
+      {
+        "id": "2",
+        "type": "Tv shows to watch.doc",
+        "ownerName": "Anthony Bellon",
+        "details": "Doctor who, Falcon and the winter solider, Daredevil"
+      },
+      {
+        "id": "3",
+        "type": "the secret to the universe.doc",
+        "ownerName": "John Doe",
+        "details": "42"
+      },
+      {
+        "id": "4",
+        "type": "test.doc",
+        "ownerName": "Bill Gates",
+        "details": "Bill Gates no longer richest person on earth"
+      } ,
+      {
+        "id": "5",
+        "type": "Notes.doc",
+        "ownerName": "Elon Musk",
+        "details": "SN 11 soon to be flown"
+      }
+    ],
+    "folderList": [
+        {
+            "id": "documents",
+            "route": "/details"
+        },
+        {
+            "id": "downloads",
+            "route": "/details"
+        },
+        {
+            "id": "pictures",
+            "route": "/details"
+        },
+        {
+            "id": "music",
+            "route": "/details"
+        }
+    ]
+  }

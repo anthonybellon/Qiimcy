@@ -14,3 +14,32 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* SideBar */
+.listform li {
+  display : flex;
+  border: solid 2x #000000;
+  padding: .5em .8em .5em .5em;
+  margin-bottom: 1em;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+}
+
+/* Grid */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-column-gap: 10px;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
